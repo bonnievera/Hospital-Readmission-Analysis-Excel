@@ -1,13 +1,17 @@
-# Hospital-Readmission-Analysis-Excel
-End-to-end data cleaning and exploratory analysis of hospital readmission data using Excel Pivot Tables.
-	The age field was categorical, so I engineered numeric age features by extracting ranges and calculating midpoints for analysis.
-	I converted categorical outcome variables into binary flags to enable percentage and risk analysis.
-	I categorized hospital stay duration into short, medium, and long stays to simplify readmission risk analysis.
-	I categorized patients by medication load to analyze its impact on readmission risk.
-	I categorized lab procedure volume into intensity levels to assess clinical complexity and its relationship with readmissions.
-	I created an emergency visit flag to evaluate how acute care usage impacts hospital readmissions.
-	I standardized categorical healthcare fields and handled missing values to improve consistency and reporting accuracy.
-	I standardized clinical test fields and replaced ambiguous values to improve interpretability in analysis.
-	I standardized medication indicators to ensure consistent grouping and accurate analysis of treatment impact on readmissions.
-	I used pivot tables to analyze hospital readmission drivers, focusing on length of stay, emergency usage, medication load, and clinical complexity, then visualized insights using appropriate chart types.
+# Hospital Readmission Analysis: Identifying Clinical Risk Drivers
 
+##  Project Overview
+Hospital readmissions are a critical metric for healthcare quality and cost-efficiency. This project analyzes a dataset of 25,000+ patient records to identify the key clinical factors that contribute to higher readmission rates. 
+
+By transforming raw categorical data into measurable metrics, this analysis provides insights into how hospital stay duration, medication load, and emergency room usage impact patient outcomes.
+
+##  The Problem Statement
+High readmission rates often indicate gaps in patient care or discharge planning. The objective of this analysis was to answer three core questions:
+1. **Clinical Complexity:** Does a higher number of lab procedures and medications correlate with a higher risk of return?
+2. **Operational Impact:** How does the length of a hospital stay influence the likelihood of readmission?
+3. **Acute Care History:** Are patients with prior emergency visits significantly more likely to be readmitted?
+
+##  Tools Used
+* **Excel:** Data Cleaning, Feature Engineering (IF/IFS, VALUE, MID), and Exploratory Data Analysis.
+* **Pivot Tables & Charts:** Dynamic data aggregation and visualization of readmission drivers.
+* **GitHub:** Documentation and version control.
